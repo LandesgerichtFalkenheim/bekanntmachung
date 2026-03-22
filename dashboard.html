@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mitarbeiterbereich – Landesgericht</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Neue Amtliche Ankündigung erstellen</h1>
+
+<form id="announcementForm">
+    <label>Titel</label>
+    <input type="text" id="title" required>
+
+    <label>Text</label>
+    <textarea id="text" required></textarea>
+
+    <label>Kategorie</label>
+    <select id="category">
+        <option value="rot">Rot</option>
+        <option value="gelb">Gelb</option>
+        <option value="grün">Grün</option>
+    </select>
+
+    <button type="submit">Veröffentlichen</button>
+</form>
+
+<script src="js/announcements.js"></script>
+</body>
+</html>
